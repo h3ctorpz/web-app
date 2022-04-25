@@ -10,7 +10,7 @@
   
   Run a container:
 
-  `docker run -p 3000:3000 -d node-web-app`
+  `docker run -p 8080:3000 -d node-web-app`
 
   Check if the container is running:
 
@@ -22,7 +22,7 @@
 
   Test the app trhough a web browser using the localhost URL and 3000 port, or trhough the command line:
 
-  `curl localhost:3000/user`
+  `curl localhost:8080/user`
 
   Run the unit test:
 
@@ -33,6 +33,8 @@
   From the `/<directory-path>/web-app/` directory, run:
 
   `node app.js`
+
+  In this case the application will run on port 3000
 
   To run the unit test:
 
